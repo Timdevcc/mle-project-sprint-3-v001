@@ -14,7 +14,7 @@ cd services
 pip install -r requirements.txt
 # команда запуска сервиса с помощью uvicorn
 uvicorn ml_service.service:app --reload --host 0.0.0.0 --port 8000
-
+```
 ### Пример curl-запроса к микросервису
 
 ```bash
@@ -39,7 +39,7 @@ curl -X 'POST' \
   "has_elevator": true
 }'
 ```
-
+Ответ модели в формате: {"used_id": user_id, "prediction": model_prediction}
 
 ## 2. FastAPI микросервис в Docker-контейнере
 
