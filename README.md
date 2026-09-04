@@ -17,4 +17,10 @@
 
 Мониторинг и метрики: Prometheus, Prometheus FastAPI Instrumentator, prometheus_client, Grafana.
 
+### Структура документации
+Instructions.md — подробные пошаговые инструкции по запуску микросервиса  
+
+Monitoring.md — описание архитектуры мониторинга и обоснование выбора метрик  
+
+
 Здесь укажите имя вашего бакета: s3-student-mle-20260702-1d35328110-freetrack
